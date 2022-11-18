@@ -76,7 +76,7 @@ namespace WSAuto.Controllers
         }
 
 
-        // GET /api/auto/marca/modelo
+        // GET /api/auto/marcamodelo/marca/modelo
         [HttpGet("{parametro}/{marca}/{modelo}")]
         public dynamic Get(string parametro, string marca, string modelo)
         {
